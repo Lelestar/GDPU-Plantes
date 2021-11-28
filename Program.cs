@@ -77,3 +77,27 @@ namespace ClassCartes
         }
     }
 }
+
+class Deck
+{
+    private string name;
+    private Card[] cards;
+
+    // accesseurs/setters pour noms
+    // accesseur pour carte
+    // recherche de carte par nom
+    // recherche de cartes par famille (surtout utile pour le deck global)
+    // ajout 
+}
+
+class Plante
+{
+    private string name;
+    private int love;
+    private int humidity;
+    private int air;
+    private int soil;
+    private int age;
+    private Deck currentDeck;
+    private int flags;
+}
