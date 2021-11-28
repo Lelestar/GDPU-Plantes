@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Cards;
 
 namespace ClassCartes
 {
@@ -7,10 +7,9 @@ namespace ClassCartes
         private string _name;
         private Card[] _cards;
 
-        // accesseurs/setters pour noms
-        // accesseur pour carte
-        // recherche de carte par nom
-        // recherche de cartes par famille (surtout utile pour le deck global)
-        // ajout 
+        // TODO: accesseurs/setters pour noms
+        // TODO: accesseur pour carte
+        // TODO: recherche de carte par nom
+        // TODO: recherche de cartes par famille (surtout utile pour le deck global)
     }
 }

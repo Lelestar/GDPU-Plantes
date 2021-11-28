@@ -1,4 +1,5 @@
 ﻿using System;
+using Choices;
 
 namespace ClassCartes
 {
@@ -7,7 +8,7 @@ namespace ClassCartes
         static void Main(string[] args)
         {
 
-            Choice myChoice = new DefaultChoice("Testing testing");
+            Choice myChoice = new Choices.DefaultChoice();
             Console.WriteLine("Hello World! " + myChoice._description);
         }
     }

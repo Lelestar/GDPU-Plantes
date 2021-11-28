@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 
 namespace ClassCartes
 {
@@ -12,5 +12,7 @@ namespace ClassCartes
         private int _age;
         private Deck _currentDeck;
         private int _flags;
+
+        // toutes les fonctions de la plante
     }
 }

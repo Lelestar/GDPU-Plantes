@@ -1,8 +1,10 @@
-﻿namespace ClassCartes
+﻿using Choices;
+
+namespace Cards
 {
     class Card
     {
-        string name = "defaultcard";
+        string _name = "defaultcard";
         public string description = "defaultcarddescription";
         int _id = -1;
         string _family;      // Utiliser un ID avec des define pour améliorer les performances ?
@@ -15,11 +17,5 @@
         }
     }
 
-    class DefaultCard : Card
-    {
-        public DefaultCard()
-        {
-            base.Carte(0);
-        }
-    }
+   
 }

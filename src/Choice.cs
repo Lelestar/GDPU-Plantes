@@ -1,4 +1,4 @@
-﻿namespace ClassCartes
+﻿namespace Choices
 {
     class Choice
     {
@@ -20,26 +20,15 @@
             // Ajouter amour, modificateur d'air, d'humidité et de sol
 
             // Retourner deleteOnPick pour dire à l'appelant si la carte doit être supprimée du deck
-            return deleteOnPick;
+            return _deleteOnPick;
         }
 
-
+        public Choice (int id)
+        {
+            _id = id;
+        }
 
     }
+    // TODO : toutes les méthodes 
 
-    class DefaultChoice : Choice
-    {
-        public DefaultChoice(string s)
-        {
-            _description = "Error! Choice not found: " + s;
-        }
-
-        public override bool choose(int plant)
-        {
-            // Opérations spéciales sur la plante
-
-            // A la fin on appelle la version de choose appartenant à la classe héritée
-            return base.choose(plant);
-        }
-    }
 }
