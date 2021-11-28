@@ -2,7 +2,7 @@
 
 namespace ClassCartes
 {
-    class Plante
+    class Plant
     {
         private string _name;
         private int _love;
